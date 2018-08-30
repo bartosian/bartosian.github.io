@@ -53,7 +53,6 @@ var game = {
         let sound = new Audio();
         sound.src = "sounds/buttonPres.mp3";
         sound.play();
-        console.log(game.startSound);
         game.startSound.pause();
         game.startSound.currentTime = 0;
         game.hideScreens();
@@ -497,11 +496,15 @@ var game = {
 
 // Initialize game once page has fully loaded
 window.addEventListener("load", function() {
+
+    game.init();
     game.startSound = new Audio();
     game.startSound.src = "sounds/start.mp3";
+    game.startSound.autoplay = true;
     game.startSound.play();
     game.startSound.loop = true;
-    game.init();
+
+
 });
 
 
