@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9df32595-544e-4c1e-bf3d-f6ac9181c417" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/levels.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/levels.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sounds/metronome.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/sounds/metronome.mp3" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -155,16 +152,15 @@
       <updated>1535561289923</updated>
       <workItem from="1535561292117" duration="195000" />
       <workItem from="1535567363849" duration="129000" />
-      <workItem from="1535572495199" duration="833000" />
+      <workItem from="1535572495199" duration="1032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1157000" />
+    <option name="totallyTimeSpent" value="1356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1049" height="953" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40272373" />
       <window_info anchor="bottom" id="TODO" order="6" />
