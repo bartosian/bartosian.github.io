@@ -43,15 +43,20 @@ let levels = {
 
             rulesDivLeft.classList.remove("left");
             rulesDivRight.classList.remove("right");
-            let sound = new Audio();
-            sound.src = "sounds/buttonPres.mp3";
-            sound.play();
 
+                if(!game.isSafari) {
+                    var sound = new Audio();
+                    sound.src = "sounds/buttonPres.mp3";
+                    sound.play();
+                }
 
             game.hideScreen("levelselectscreen");
             // Level label values are 1, 2. Levels are 0, 1
             levels.load(i);
-            sound.currentTime = 0;
+
+                if(!game.isSafari) {
+                    sound.currentTime = 0;
+                }
         };
         for (let i = 0; i < levels.data.length; i++) {
             var button = document.createElement("input");
@@ -89,12 +94,15 @@ let levels = {
         game.currentLevel.sounds.sweep = loader.loadSound("sounds/sweep");
         game.currentLevel.sounds.win = loader.loadSound("sounds/win");
         game.currentLevel.sounds.lose = loader.loadSound("sounds/lose");
+
+
         // Load level characteristics
         game.currentLevel.weapons = level.weapons;
         game.currentLevel.shieldBounce = level.shieldBounce;
         game.currentLevel.armourBounce = level.armourBounce;
         game.currentLevel.limit = level.levelLimit;
         // Call game.start() once the assets have loaded
+
         loader.onload = game.start;
     }
 };
