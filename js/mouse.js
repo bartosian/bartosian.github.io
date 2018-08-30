@@ -45,7 +45,6 @@ var mouse = {
 
     mouseClickHomeBtnHandler: function() {
         game.currentLevel.sounds.buttonPress.play();
-        game.startSound.play();
         game.finish();
         game.currentLevel.sounds.buttonPress.currentTime = 0;
     },
