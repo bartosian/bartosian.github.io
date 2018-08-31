@@ -242,7 +242,7 @@ canvas {
 
 #loadingscreen {
     background: url("../images/loader.gif") no-repeat;
-    background-position: top 220px center;
+    background-position: top 260px center;
 }
 
 #loadingmessage {
