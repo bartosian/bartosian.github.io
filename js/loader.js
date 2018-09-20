@@ -40,7 +40,7 @@ var loader = {
         game.showScreen("loadingscreen");
         var audio = new Audio();
         audio.addEventListener("canplaythrough", loader.itemLoaded, false);
-        audio.src = url + loader.soundFileExtn;
+        audio.src = url + ".mp3";
         return audio;
     },
 
